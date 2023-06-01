@@ -1,1 +1,2 @@
-### Aim of the experiment
+## Aim
+The aim of this experiment is to investigate attentional cuing using the Posner task in order to understand how attention is directed and how it influences perception. The experiment is designed to provide participants with a comprehensive understanding of attentional processes and the opportunity to conduct the experiment digitally, thereby enhancing their knowledge and practical skills.

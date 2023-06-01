@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
+  <head>
+    <meta charset="UTF-8">
+    <title>Cue Posner Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
     <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
-
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="v-collapsible-instruction-container v-instruction-container">
+      <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Cue Posner Task</div>
+      <div class="v-content">
+        <ul style="list-style: disc;">
+          <li> On clicking start the cue starts in one of the box.</li>
+          <li> A star appears after the cue and the user needs to click the box in which star appeared</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box" id="left-box"></div>
+      <div class="plus">+</div>
+      <div class="box" id="right-box"></div>
+    </div>
+    <div class="button-container">
+      <button class="v-button" id="start-button">Start</button>
+      <button class="v-button" id="reset-button">Reset</button>
+    </div>
+    <div class="results" id="results"></div>
+    <script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

@@ -1,1 +1,83 @@
-/* You CSS goes in here */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.box.active {
+  border-color: black;
+  border: 10px solid black;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 48px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.instructions-box {
+  max-height: 70px;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+.instructions-box.expand {
+  max-height: 400px;
+}
+
+.v-instruction-container {
+  border:.2rem solid #97d23d;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.speed-box{
+  border:1px solid black;
+  color:black;
+  background-color:white;
+  text-align:center;
+  font-size:1.0rem;
+  border-radius:1em;
+  padding:.5em 1.0em;
+  cursor:pointer;
+}
