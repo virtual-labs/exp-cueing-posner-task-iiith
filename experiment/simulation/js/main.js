@@ -1,160 +1,3 @@
-// // const leftBox = document.getElementById('left-box');
-// // const rightBox = document.getElementById('right-box');
-// // const startButton = document.getElementById('start-button');
-// // const resetButton = document.getElementById('reset-button');
-// // const results = document.getElementById('results');
-// // const boxes = [leftBox, rightBox];
-// // let trialCount = 0;
-// // let correctCount = 0;
-// // let trialStart;
-
-// // function resetBoxes() {
-// //   boxes.forEach(box => {
-// //     box.classList.remove('active');
-// //     box.innerHTML = '';
-// //   });
-// // }
-
-// // function displayCue() {
-// //   resetBoxes();
-// //   const randomIndex = Math.floor(Math.random() * boxes.length);
-// //   boxes[randomIndex].classList.add('active');
-// //   setTimeout(() => {
-// //     boxes[randomIndex].classList.remove('active');
-// //     displayStar();
-// //   }, 1000);
-// //   trialStart = Date.now();
-// // }
-
-// // function displayStar() {
-// //   const randomIndex = Math.floor(Math.random() * boxes.length);
-// //   boxes[randomIndex].innerHTML = '*';
-// //   boxes[randomIndex].addEventListener('click', handleResponse);
-// // }
-
-// // function handleResponse(event) {
-// //   const responseTime = Date.now() - trialStart;
-// //   const selectedBox = event.target;
-// //   if (selectedBox === leftBox && leftBox.innerHTML === '*') {
-// //     correctCount++;
-// //   } else if (selectedBox === rightBox && rightBox.innerHTML === '*') {
-// //     correctCount++;
-// //   }
-// //   trialCount++;
-// //   results.innerHTML += `Trial ${trialCount}: ${responseTime}ms<br>`;
-// //   selectedBox.removeEventListener('click', handleResponse);
-// //   resetBoxes();
-// //   if (trialCount < 10) {
-// //     displayCue();
-// //   } else {
-// //     const averageTime = calculateAverageTime();
-// //     results.innerHTML += `<br>Correct Responses: ${correctCount} out of 10<br>`;
-// //     results.innerHTML += `Average Response Time: ${averageTime}ms`;
-// //   }
-// // }
-
-// // function handleResponse(event) {
-// //   const responseTime = Date.now() - trialStart;
-// //   const selectedBox = event.key === 'ArrowLeft' ? leftBox : event.key === 'ArrowRight' ? rightBox : null;
-// //   if (selectedBox && selectedBox.innerHTML === '*') {
-// //     correctCount++;
-// //   }
-// //   trialCount++;
-// //   results.innerHTML += `Trial ${trialCount}: ${responseTime}ms<br>`;
-// //   document.removeEventListener('keydown', handleResponse);
-// //   resetBoxes();
-// //   if (trialCount < 10) {
-// //     displayCue();
-// //   } else {
-// //     const averageTime = calculateAverageTime();
-// //     results.innerHTML += `<br>Correct Responses: ${correctCount} out of 10<br>`;
-// //     results.innerHTML += `Average Response Time: ${averageTime}ms`;
-// //   }
-// // }
-
-// // function calculateAverageTime() {
-// //   let totalTime = 0;
-// //   for (let i = 1; i <= 10; i++) {
-// //     const trialResult = results.querySelector(`:nth-child(${i})`).innerHTML;
-// //     const responseTime = parseInt(trialResult.split(': ')[1]);
-// //     totalTime += responseTime;
-// //   }
-// //   return Math.round(totalTime / 10);
-// // }
-
-// // function resetGame() {
-// //   trials = 0;
-// //   correctAnswers = 0;
-// //   trialTimes = [];
-// //   results.innerHTML = '';
-// //   leftBox.classList.remove("star", "active");
-// //   rightBox.classList.remove("star", "active");
-// // }
-
-// // startButton.addEventListener('click', displayCue);
-// // resetButton.addEventListener('click', resetGame);
-// const leftBox = document.getElementById('left-box');
-// const rightBox = document.getElementById('right-box');
-// const startButton = document.getElementById('start-button');
-// const resetButton = document.getElementById('reset-button');
-// const results = document.getElementById('results');
-// const boxes = [leftBox, rightBox];
-// let trialCount = 0;
-// let correctCount = 0;
-// let trialStart;
-
-// function resetBoxes() {
-//   boxes.forEach(box => {
-//     box.classList.remove('active');
-//     box.innerHTML = '';
-//   });
-// }
-
-// function displayCue() {
-//   resetBoxes();
-//   const randomIndex = Math.floor(Math.random() * boxes.length);
-//   boxes[randomIndex].classList.add('active');
-//   document.addEventListener('keydown', handleResponse);
-//   setTimeout(() => {
-//     boxes[randomIndex].classList.remove('active');
-//     displayStar();
-//   }, 1000);
-//   trialStart = Date.now();
-// }
-
-// function displayStar() {
-//   const randomIndex = Math.floor(Math.random() * boxes.length);
-//   boxes[randomIndex].innerHTML = '*';
-// }
-
-// function handleResponse(event) {
-//   const responseTime = Date.now() - trialStart;
-//   const selectedBox = event.key === 'ArrowLeft' ? leftBox : event.key === 'ArrowRight' ? rightBox : null;
-//   if (selectedBox && selectedBox.innerHTML === '*') {
-//     correctCount++;
-//   }
-//   trialCount++;
-//   results.innerHTML += `Trial ${trialCount}: ${responseTime}ms<br>`;
-//   document.removeEventListener('keydown', handleResponse);
-//   resetBoxes();
-//   if (trialCount < 10) {
-//     displayCue();
-//   } else {
-//     const averageTime = calculateAverageTime();
-//     results.innerHTML += `<br>Correct Responses: ${correctCount} out of 10<br>`;
-//   }
-// }
-
-// function resetGame() {
-//   trialCount = 0;
-//   correctCount = 0;
-//   results.innerHTML = '';
-//   resetBoxes();
-// }
-
-// startButton.addEventListener('click', displayCue);
-// resetButton.addEventListener('click', resetGame);
-
 const leftBox = document.getElementById('left-box');
 const rightBox = document.getElementById('right-box');
 const startButton = document.getElementById('start-button');
@@ -187,13 +30,13 @@ function displayCue() {
 
 function displayStar() {
   const randomIndex = Math.floor(Math.random() * boxes.length);
-  boxes[randomIndex].innerHTML = '*';
+  boxes[randomIndex].innerHTML = '★';
 }
 
 function handleResponse(event) {
   const responseTime = Date.now() - trialStart;
   const selectedBox = event.key === 'ArrowLeft' ? leftBox : event.key === 'ArrowRight' ? rightBox : null;
-  if (selectedBox && selectedBox.innerHTML === '*') {
+  if (selectedBox && selectedBox.innerHTML === '★') {
     correctCount++;
   }
   trialCount++;

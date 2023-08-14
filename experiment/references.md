@@ -1,0 +1,2 @@
+### References
+1) Hayward, D. A., & Ristic, J. (2013). Measuring attention using the Posner cuing paradigm: the role of across and within trial target probabilities. In Frontiers in Human Neuroscience (Vol. 7). Frontiers Media SA. https://doi.org/10.3389/fnhum.2013.00205
