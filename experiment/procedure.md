@@ -1,14 +1,38 @@
 ## Procedure
-1) Participants will log in to the virtual lab site and read the instructions explaining the Cueing/Posner task.
-2) Participants will be presented with a practice phase to familiarize themselves with the task. During this phase, they will receive step-by-step instructions and perform a few trials to understand the task requirements.
-3) The main experiment will begin, consisting of multiple blocks of trials.
-4) Each trial will follow the same structure:<br>
-    a) A fixation cross will appear at the center of the screen for a brief period (e.g., 500 ms) to direct participants' attention.<br>
-    b) Following the fixation, a cue (e.g., a star) will appear at either the left or right side of the screen, indicating the potential location of the target stimulus.<br>
-    c) The cue can be either valid or invalid:<br>
-        1) In valid trials, the cue correctly predicts the location of the target stimulus. For example, if the cue points to the right, the target will appear on the right side of the screen.<br>
-        2) In invalid trials, the cue is misleading and unrelated to the target's location. For example, if the cue points to the right, the target may appear on the left side of the screen.<br>
-    d) After a short delay (e.g., 200-500 ms), the target stimulus will appear either on the left or right side of the screen.<br>
-    e) Participants will be instructed to respond as quickly and accurately as possible to the target stimulus by pressing a corresponding key or button (e.g., left arrow key for left-side target, right arrow key for right-side target).<br>
-    f) Response times and accuracy will be recorded for each trial.<br>
-5) The experiment will include multiple blocks of trials, with varying proportions of valid and invalid trials, to examine the effects of cueing on attention and response times.
+
+### Step 1: Focusing on the Fixation Point
+
+- You will start by focusing on a central fixation point located in the middle of the screen. This helps direct your attention to the center before the cue and target appear.
+
+### Step 2: Watching for the Cue
+
+- Once you click the start button, a brief visual cue (e.g., the border of a box) will appear on either the left or right side of the screen. This cue helps guide your attention to one of the possible target locations.
+
+### Step 3: Observing the Target
+
+- After the cue disappears, you will see a target stimulus (e.g., a star) appear on the screen. It will be presented either:
+  - At the **cued location** (valid cue), or
+  - At the **opposite location** (invalid cue).
+
+### Step 4: Responding to the Target
+
+- You need to respond as quickly as possible by pressing a button that matches the location of the target:
+  - Press the **left button** if the target appears on the left.
+  - Press the **right button** if the target appears on the right.
+
+## Important Considerations
+
+### Understanding Cue Validity
+
+- The proportion of trials where the cue correctly predicts the target location (valid cue) is designed to test how well your attention shifts. Typically, you will respond faster when the target appears at the cued location.
+
+### Exploring Trial Types
+
+- The experiment includes a mix of trials to understand attention shifts more deeply:
+  - **Valid trials**: The cue correctly predicts the target's location.
+  - **Invalid trials**: The cue incorrectly predicts the target's location.
+  - **Neutral trials**: No cue is provided, serving as a baseline for comparison.
+
+### Measuring Your Response Time
+
+- Your **reaction time (RT)** is the main measure in this task. Faster responses are expected when the cue is accurate (valid cue), while slower responses are expected for incorrect cues (invalid cue).

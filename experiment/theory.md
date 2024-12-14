@@ -1,6 +1,17 @@
 ## Theory
-Attention is a fundamental cognitive process that enables us to selectively focus on specific information while filtering out irrelevant distractions. The Posner task is a classic experimental paradigm used to study attentional cueing effects. It explores how cues and the spatial location of stimuli can influence attention and perception.<br>
-The Posner cueing task is a neuropsychological test often used to assess attention. It measures how fast a person can shift their attention from one location to another in the visual field. It also tests how different types of cues (such as arrows or flashes) can affect the attentional shift. It has been used and modified to study various aspects of spatial attention, such as disorders, brain injuries, and development.<br>
-In the Posner task, participants are presented with a central fixation point, followed by a cue that provides information about the likely location of a subsequent target stimulus. The cue can be either valid, where it accurately predicts the target's location, or invalid, where it misdirects attention away from the target's location. Participants are then required to respond as quickly and accurately as possible to the appearance of the target stimulus.<br>
-Researchers classify cues as valid or invalid, and informative or uninformative. Valid cues indicate the location of a relevant stimulus (e.g., a flash where a target will appear); invalid cues do not. Informative cues have a predictable location; uninformative cues do not. In some experiments (like the example below), a cue is valid 75% of the time. Valid cues improve detection performance, especially when they are informative. The more informative the cue, the stronger the effect.<br>
-The theory behind the Posner task suggests that valid cues lead to faster reaction times and higher accuracy compared to invalid cues. This is because attention is selectively allocated to the cued location, enhancing perceptual processing and facilitating target detection. In contrast, invalid cues create a conflict between the cue and the target location, resulting in slower reaction times and reduced accuracy.
+
+Attention is a key cognitive process that helps us focus on relevant information while ignoring distractions. The Posner Task is a classic method used to study how visual cues affect attention and perception. It investigates how quickly and accurately people can shift their attention based on different types of cues, such as arrows or flashes.
+
+In this task, participants fixate on a central point before seeing a cue that indicates where a target is likely to appear. The cue can be:
+
+- **Valid**: Correctly predicts the target’s location.
+- **Invalid**: Misdirects attention away from the target’s location.
+
+The cue can also be:
+
+- **Informative**: Has a predictable relationship with the target's location.
+- **Uninformative**: Provides no reliable information about the target's location.
+
+Participants respond to the target as quickly and accurately as possible. The theory suggests that valid cues improve performance by directing attention to the right location, enhancing perception and reaction time. In contrast, invalid cues slow down responses and reduce accuracy due to conflicting information.
+
+By analyzing reaction times and accuracy rates, researchers can infer how attention is allocated and how cognitive processes operate during visual search tasks. This information is valuable for understanding human behavior, designing user-friendly interfaces, and optimizing task performance in various domains.
