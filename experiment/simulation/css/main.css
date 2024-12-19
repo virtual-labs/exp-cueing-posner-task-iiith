@@ -125,8 +125,14 @@ button:active {
 /* Collapsible Button Arrow */
 .v-collapsible:after {
   content: '\2193'; /* Downward arrow */
+  scale: 2.5;
   font-weight: bold;
   color: #ff0000;
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+.v-collapsible-active:after {
+  transform: rotate(180deg); /* Rotate 180 degrees */
 }
 
 /* Text Styles */
