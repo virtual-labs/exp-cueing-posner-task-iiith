@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cue Posner Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="v-collapsible-instruction-container v-instruction-container">
+      <div id="instruction-title" class="v-collapsible is-size-5">Instructions for performing the Cue Posner Task</div>
+      <div class="v-content">
+          <ul style="list-style: disc; text-align: left;">
+              <li>Click the "Start" button to begin the experiment.</li>
+              <li>A cue, represented by a box with a bold black border, will appear in one of two boxes (left or right).</li>
+              <li>Following the cue, a star (★) will appear in one of the boxes.</li>
+              <li>If the star appears in the left box, press the "Left Arrow Key".</li>
+              <li>If the star appears in the right box, press the "Right Arrow Key".</li>
+              <li>Your task is to respond as quickly and accurately as possible, based on the location of the star after the cue.</li>
+          </ul>
+      </div>
+  </div>  
+    <div class="container">
+      <div class="box" id="left-box"></div>
+      <div class="plus">+</div>
+      <div class="box" id="right-box"></div>
+    </div>
+    <div class="button-container">
+      <button class="v-button" id="start-button">Start</button>
+      <button class="v-button" id="reset-button">Reset</button>
+    </div>
+    <div class="results" id="results"></div>
+    <script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+    <script src="./js/main.js"></script>
+  <script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
