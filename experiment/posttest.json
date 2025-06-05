@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of the Cueing/Posner task?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To study memory processes",
+        "b": "To investigate visual illusions",
+        "c": "To examine attentional orienting",
+        "d": "To measure motor reaction times"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "Correct! The main purpose of the Cueing/Posner task is to examine how attention is oriented and directed based on cues.",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How did the cues in the experiment affect your response times?",
+      "answers": {
+        "a": "Cues made no difference in my response times.",
+        "b": "Response times were faster when the cue was valid (correctly predicted the target location).",
+        "c": "Response times were slower when the cue was valid.",
+        "d": "I didn't notice any change in response times."
+      },
+      "explanations": {
+        "a": "This isn't accurate. The valid cue should have improved response times.",
+        "b": "Correct! When the cue was valid, participants responded faster because their attention was directed to the correct location.",
+        "c": "This is incorrect. Valid cues should speed up response times, not slow them down.",
+        "d": "This suggests a lack of awareness of the cueing effect. Valid cues should have made your response times faster."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What did you learn about your attention during the experiment?",
+      "answers": {
+        "a": "I learned that I am equally fast at responding regardless of where the target appears.",
+        "b": "I learned that I respond faster when the cue correctly predicts the target location.",
+        "c": "I learned that my attention doesn't shift based on cues.",
+        "d": "I didn't notice anything about how my attention works."
+      },
+      "explanations": {
+        "a": "This is not quite accurate. The experiment should have shown differences in response times based on cue validity.",
+        "b": "Correct! When the cue accurately predicted the target location, you likely responded faster due to better-attuned attention.",
+        "c": "This is incorrect. The experiment was designed to show how cues affect attention and response times.",
+        "d": "This answer suggests that you may not have been aware of the experiment's effects on your attention."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

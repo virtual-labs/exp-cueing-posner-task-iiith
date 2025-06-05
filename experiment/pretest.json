@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following best describes attentional cuing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The process of shifting attention from one location to another.",
+        "b": "The ability to maintain focus on a single task for an extended period of time.",
+        "c": "The automatic capture of attention by a sudden and unexpected stimulus.",
+        "d": "The use of cues to direct attention to specific locations in anticipation of a target stimulus."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This describes shifting attention, but it doesn't specify that it's cued by external signals, which is the key idea of attentional cuing.",
+        "b": "This describes sustained attention, which is different from attentional cuing, which focuses on shifting attention based on cues.",
+        "c": "This describes attentional capture, a different phenomenon where attention is automatically grabbed by a sudden stimulus, not cued in advance.",
+        "d": "Correct! Attentional cuing refers to using cues to direct attention to specific locations, preparing the brain for a target stimulus."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What happens when a valid cue is presented in the Posner task?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It misdirects attention, slowing down reaction time.",
+        "b": "It helps focus attention on the correct location, speeding up response time.",
+        "c": "It causes confusion and makes it harder to detect the target.",
+        "d": "It has no effect on the reaction time or accuracy."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This describes an invalid cue, which misdirects attention and slows response times.",
+        "b": "Correct! A valid cue helps focus attention on the target's location, making it easier and faster to detect the target.",
+        "c": "This would happen with an invalid cue, which creates conflict and delays response time.",
+        "d": "This is not true. Valid cues actually improve performance by directing attention to the correct location."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the Posner task, what is the purpose of using cues before the target appears?",
+      "answers": {
+        "a": "To distract the participant and make the task harder.",
+        "b": "To test if the participant can ignore distractions.",
+        "c": "To help the participant focus attention on the likely location of the target.",
+        "d": "To confuse the participant into making a wrong guess."
+      },
+      "explanations": {
+        "a": "Cues are not meant to distract but to guide attention. The goal is to improve task performance, not make it harder.",
+        "b": "While the task does require attention, the goal of cues is not to test the ability to ignore distractions.",
+        "c": "Correct! The cues are used to direct the participant's attention to the likely location of the target to improve detection.",
+        "d": "This is not the purpose of the cueing task. Cues are meant to guide attention, not confuse the participant."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
